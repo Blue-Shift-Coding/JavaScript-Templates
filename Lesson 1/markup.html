@@ -4,21 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Blueshift JavaScript Course &ndash; Lesson 1</title>
-  <script src="/libraries/bonsai.min.js"></script>
-  <script src="script.js"></script>
+  <script src="libraries/bonsai.min.js"></script>
 </head>
 <body>
-
-<div id="stage"></div>
-
-<script>
-  function go(cb) {
-    bonsai.run(document.getElementById("stage"), {
-      width:450,
-      height:400,
-      code: cb
-    })
-  };
-</script>
+	<div id="stage"></div>
+	<script>
+	  function go(cb) {
+	    bonsai.run(document.getElementById("stage"), {
+	      width:450,
+	      height:400,
+	      code: cb
+	    })
+	  };
+	</script>
+	<script src="script.js"></script>
 </body>
 </html>
